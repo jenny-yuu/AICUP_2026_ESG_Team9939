@@ -2,7 +2,7 @@
 
 本儲存庫為 TEAM_9939 參與 [AI CUP 2026 春季賽：ESG 永續承諾驗證競賽](https://www.aidea-web.tw/aicup_veripromiseesg) 的**任務專屬文本訓練策略**程式碼。
 
-> **⚠️ 專案定位說明**  
+> **專案定位說明**  
 > 本儲存庫採用「任務專屬文本訓練策略」，在原始文本前依各子任務拼接不同的 metadata 前綴，訓練七個預訓練模型並產出 Out-Of-Fold（OOF）與測試集的預測機率矩陣（`.pkl` 檔）。  
 > 這些 pkl 檔案後續會與隊友的原始文本訓練策略（4 個 pkl）在集成腳本（`aiesg_0608.ipynb`）中合併，透過版本 C 集成策略得出最終提交成績（Private Leaderboard: 0.6375782, Rank 21）。
 
