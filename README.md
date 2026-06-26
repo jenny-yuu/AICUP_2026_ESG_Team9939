@@ -98,7 +98,7 @@ M2_train_electra_only.py  →  M2_electra.pkl
 
 ```python
 PKL_DIR = "/content/drive/MyDrive/ESGtest/M2_pkl"          # 本策略 7 個 pkl 所在資料夾
-JIE_PKL = "/content/drive/MyDrive/ESGtest/M2_pkl/0.62esg/probs_ensemble.pkl"  # 隊友原始文本策略的 pkl（請向隊友取得）
+JIE_PKL = "/content/drive/MyDrive/ESGtest/M2_pkl/0.62esg/probs_ensemble.pkl"  # 隊友原始文本策略的 pkl（參考連結一：https://github.com/yuxi20001010/AICUP_2026_ESG_Verification_Team9939/blob/main/README.md）
 OUT_DIR = "/content/drive/MyDrive/ESGtest"                  # 輸出 CSV 的資料夾
 ```
 
